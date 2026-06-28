@@ -75,37 +75,6 @@ A full-stack **MERN** application inspired by the Zerodha trading platform. This
 
 ---
 
-## 📁 Project Structure
-
-```text
-zerodha-clone/
-│
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── context/
-│   │   ├── assets/
-│   │   ├── hooks/
-│   │   └── App.js
-│   │
-│   └── package.json
-│
-├── backend/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── config/
-│   ├── server.js
-│   └── package.json
-│
-└── README.md
-```
-
----
-
 ## ⚙️ Installation
 
 ### Clone the Repository
