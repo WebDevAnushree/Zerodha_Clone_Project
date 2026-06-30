@@ -70,6 +70,9 @@ app.get("/allOrders", async (req, res) => {
     res.status(500).json({ message: "Error fetching orders" });
   }
 });
+app.get("/", (req, res) => {
+    res.send("Zerodha Backend is Running Successfully 🚀");
+});
 
 /* ---------------- ERROR MIDDLEWARE ---------------- */
 app.use(errorMiddleware);
