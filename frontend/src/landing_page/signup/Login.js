@@ -13,7 +13,7 @@ export const Login = () => {
 
   const BASE_URL = process.env.REACT_APP_BACKEND_URL?.trim();
   const URL = `${BASE_URL}/api/auth/login`;
-  const DASHBOARD_URL = process.env.REACT_APP_DASHBOARD_URL?.trim() || "http://localhost:3001"; // ✅ env-driven, not hardcoded
+  const DASHBOARD_URL = process.env.REACT_APP_DASHBOARD_URL?.trim() || "https://zerodha-clone-project-chi.vercel.app"; // ✅ env-driven, not hardcoded
 
   const handleInput = (e) => {
     const { name, value } = e.target;

@@ -15,7 +15,7 @@ export const Signup = () => {
 
   const BASE_URL = process.env.REACT_APP_BACKEND_URL?.trim();
   const URL = `${BASE_URL}/api/auth/register`;
-  const DASHBOARD_URL = process.env.REACT_APP_DASHBOARD_URL?.trim() || "http://localhost:3001"; // ✅ added
+  const DASHBOARD_URL = process.env.REACT_APP_DASHBOARD_URL?.trim() || "https://zerodha-clone-project-chi.vercel.app"; // ✅ added
 
   const handleInput = (e) => {
     const { name, value } = e.target;

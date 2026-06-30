@@ -82,68 +82,6 @@ A full-stack **MERN** application inspired by the Zerodha trading platform. This
 ```bash
 git clone https://github.com/WebDevAnushree/Zerodha_Clone_Project.git
 
-cd zerodha-clone
-```
-
-### Install Frontend Dependencies
-
-```bash
-cd frontend
-npm install
-```
-
-### Install Backend Dependencies
-
-```bash
-cd ../backend
-npm install
-```
-
----
-
-## 🔑 Environment Variables
-
-Create a `.env` file inside the **backend** folder.
-
-```env
-PORT=5000
-
-MONGO_URI=your_mongodb_connection_string
-
-JWT_SECRET=your_secret_key
-```
-
----
-
-## ▶️ Run the Application
-
-### Start Backend
-
-```bash
-cd backend
-
-npm run dev
-```
-
-### Start Frontend
-
-```bash
-cd frontend
-
-npm start
-```
-
-The application will be available at:
-
-```
-Frontend : http://localhost:3000
-
-Backend : http://localhost:5000
-```
-
----
-
-
 
 ## 📌 Future Enhancements
 

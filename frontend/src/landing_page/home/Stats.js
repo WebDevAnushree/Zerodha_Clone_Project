@@ -20,7 +20,7 @@ function Stats() {
                     <img src='media/images/Ecosystem.png' alt='Ecosystem' style={{width:"85%"}} />
                     <div className='text-center'>
                         <a href='/product' className='mx-5' style={{textDecoration:"none"}}>Explore our products <i className="fa-solid fa-arrow-right"></i></a>
-                        <a href='http://localhost:3000' style={{textDecoration:"none"}}>Try Kite demo <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href='https://zerodha-clone-project-t16t.vercel.app' style={{textDecoration:"none"}}>Try Kite demo <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

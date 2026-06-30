@@ -8,7 +8,7 @@ const Orders = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3006/allOrders")
+      .get("https://zerodha-clone-project-backend-5q2e.onrender.com/allOrders")
       .then((res) => setAllOrders(res.data))
       .catch((err) => console.error("Failed to fetch orders:", err));
   }, []);

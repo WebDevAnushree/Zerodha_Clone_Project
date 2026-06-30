@@ -18,7 +18,7 @@ const Menu = () => {
     console.log("Logout clicked");
     localStorage.removeItem("token"); 
     setIsProfileDropdownOpen(false);
-    window.location.href = process.env.REACT_APP_FRONTEND_URL || "http://localhost:3000"; 
+    window.location.href = process.env.REACT_APP_FRONTEND_URL || "https://zerodha-clone-project-t16t.vercel.app"; 
   };
 
   const handleSettings = () => {
