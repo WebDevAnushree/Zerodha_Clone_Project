@@ -1,8 +1,15 @@
 # 📈 Zerodha Clone
 
-A full-stack **MERN** application inspired by the Zerodha trading platform. This project replicates the core functionality and user interface of Zerodha, allowing users to manage holdings, positions, watchlists, and orders through an intuitive dashboard.
+A full-stack **MERN Stack** application inspired by the Zerodha trading platform. This project replicates the core functionality and user interface of Zerodha, allowing users to manage holdings, positions, watchlists, and orders through an intuitive dashboard.
 
 > **Note:** This project is developed for educational purposes only and is not affiliated with or endorsed by Zerodha.
+
+---
+
+## 🚀 Live Demo
+
+🌐 **Application:** https://zerodha-clone-project-t16t.vercel.app
+
 
 ---
 
@@ -38,7 +45,6 @@ A full-stack **MERN** application inspired by the Zerodha trading platform. This
 
 ### ⚡ User Experience
 - Toast notifications using React Toastify
-- Responsive UI
 - Material UI Components
 - Bootstrap Styling
 - FontAwesome Icons
@@ -50,11 +56,11 @@ A full-stack **MERN** application inspired by the Zerodha trading platform. This
 ### Frontend
 - React.js
 - React Router DOM
-- Material UI
+- Axios
 - Bootstrap
+- Material UI
 - Chart.js
 - React Toastify
-- Axios
 - FontAwesome
 
 ### Backend
@@ -62,16 +68,29 @@ A full-stack **MERN** application inspired by the Zerodha trading platform. This
 - Express.js
 
 ### Database
-- MongoDB
+- MongoDB Atlas
 - Mongoose
 
 ### Authentication
 - JSON Web Token (JWT)
 - bcrypt.js
 
-### Testing
-- Jest
-- React Testing Library
+### Deployment
+- Vercel
+- Render
+
+---
+
+## 📂 Project Structure
+
+```
+Zerodha_Clone_Project/
+│
+├── frontend/
+├── dashboard/
+├── backend/
+└── README.md
+```
 
 ---
 
@@ -81,10 +100,62 @@ A full-stack **MERN** application inspired by the Zerodha trading platform. This
 
 ```bash
 git clone https://github.com/WebDevAnushree/Zerodha_Clone_Project.git
+```
 
+```bash
+cd Zerodha_Clone_Project
+```
+
+### Install Dependencies
+
+#### Frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+#### Dashboard
+
+```bash
+cd dashboard
+npm install
+npm start
+```
+
+#### Backend
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+---
+
+## 🔑 Environment Variables
+
+### Backend (.env)
+
+```env
+PORT=3006
+MONGO_URL=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+### Frontend (.env)
+
+```env
+REACT_APP_BACKEND_URL=https://zerodha-clone-project-backend-5q2e.onrender.com
+REACT_APP_DASHBOARD_URL=https://zerodha-clone-project-chi.vercel.app
+```
+
+---
 
 ## 📌 Future Enhancements
 
+- User-specific orders
 - Real-time stock market API integration
 - Live portfolio updates
 - Advanced candlestick charts
@@ -118,9 +189,21 @@ git commit -m "Add new feature"
 git push origin feature-name
 ```
 
+5. Open a Pull Request.
+
+---
+
 ## 📄 License
 
 This project is licensed under the **MIT License**.
+
+---
+
+## 👩‍💻 Author
+
+**Anushree**
+
+- GitHub: https://github.com/WebDevAnushree
 
 ---
 
