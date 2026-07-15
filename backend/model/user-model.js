@@ -22,7 +22,6 @@ const userSchema = new mongoose.Schema({
   },
 });
 
-//? secure the password with bcrypt
 userSchema.pre("save", async function (next) {
   const user = this;
 
@@ -40,12 +39,10 @@ userSchema.pre("save", async function (next) {
   }
 });
 
-// compare the password
 userSchema.methods.comparePassword = async function (password) {
   return bcrypt.compare(password, this.password);
 };
 
-// json web token
 userSchema.methods.generateToken = async function () {
   try {
     return jwt.sign(
@@ -60,10 +57,9 @@ userSchema.methods.generateToken = async function () {
     );
   } catch (error) {
     console.error(error);
-    throw error; // ✅ re-throw so the caller (register/login controller) knows token generation failed, instead of silently returning undefined
-  }
+    throw error;
+  } 
 };
 
-// define the model
 const User = mongoose.model("User", userSchema);
 module.exports = User;
